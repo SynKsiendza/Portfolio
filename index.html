@@ -24,32 +24,28 @@
             <div class="container">
                 <header class="d-flex justify-content-center py-3 my_bg">
                   <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item" id="home"><a onclick="home()" class="nav-link " aria-current="page">Home</a></li>
+                    <li class="nav-item" id="aboutme"><a onclick="aboutme()" class="nav-link">About Me</a></li>
+                    <li class="nav-item" id="skills"><a onclick="skills()" class="nav-link">Skills</a></li>
+                    <li class="nav-item" id="projects"><a onclick="projects()" class="nav-link">Projects</a></li>
+                    <li class="nav-item" id="tech"><a onclick="tech()" class="nav-link">Some Tech info</a></li>
                   </ul>
                 </header>
             </div>
         </div>
-        <div class="main-box">
+        <div class="main-box" id="main-box">
             <div class="box-name">
-
-            </div>
-            <div class="box-aboutMe">
-
-            </div>
-            <div class="box-skills">
-
-            </div>
-            <div class="box-projects">
-
+                <div class="box-name">
+                    <h2>Hi! You are on my Portfolio Page!<br>
+                    Here you`ll find everything about me and my projects</h2>
+                    <h2>My name is <span class="name">
+                    <strong>Kacper Trzosinski</strong></span></h2>
+                </div>
             </div>
         </div>
         <div class="footer">
             <span>
-                <img src="logo" alt="">
+                <img src="img/logo.svg" alt="Kacper Trzosinski" width="32" height="32"> &copy; 2023 Kacper Trzosinski
             </span>
         </div>
     </div>

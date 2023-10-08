@@ -13,4 +13,46 @@ body
     background-color: #222222;
 }
 .footer
-{background-color: #424242;}
+{
+    color: #FFFFFF;
+    background-color: #424242;
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+}
+.full-page
+{
+    background-color: #333333;
+    color: #FFFFFF;
+}
+.name
+{
+    color: #00aeff;
+}
+.aboutme-head
+{
+    color: #00aeff;
+}
+.skills-head
+{
+    color: #00aeff;
+}
+
+.projects
+{
+    color: #00aeff;
+}
+.box-name, .box-aboutme, .box-skills, .box-projects, .box-tech
+{
+    padding: 10px;
+    width: 90%;
+    height: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    background-color: #535353;
+    border-width: 3px;
+    border-color: #09003f;
+}
